@@ -1,0 +1,143 @@
+.container {
+  min-height: 100vh;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #00A47C !important;
+  padding: 10px 10%;
+}
+
+.login , .register {
+  width: 100px;
+  padding: 5px 0px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 70px;
+}
+
+.brand {
+  color: #FFF !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.login {
+  border: 1px solid #FFF;
+  color: #FFF !important
+}
+
+.register {
+  background-color: #FFF;
+  color: #00A47C !important;
+}
+.fixedLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+
+.fixedRight {
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+
+.news {
+  padding: 50px 50px;
+  background-color: #F5F5F5;
+
+
+}
+
+.new {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 8px;
+  margin-bottom: 30px !important;
+  background-color: #FFF;
+}
+
+.details {
+  border-bottom: 2px solid #e1e0e0;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.details img {
+  width: 50px;
+  height: 50px;
+}
+
+.details span {
+  font-size: 14px;
+}
+
+.title {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.icon {
+  align-self: flex-start;
+  font-size: 23px;
+  color: #00A47C
+}
+
+.keyword {
+  display: inline-block;
+  padding: 2px 10px;
+  text-align: center;
+
+  margin: 0 10px 10px 0px;
+  border: 1px solid #00A47C;
+  border-radius: 20px;
+  color: #00A47C
+}
+
+
+@media (max-width: 992px){
+  .login , .register {
+    margin-top: 20px;
+  }
+  .basic {
+    display: flex;
+  }
+  .container {
+    background-color: #F5F5F5;
+  }
+  .news {
+    max-width: auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .new {
+    width: 80%;
+  }
+  .container {
+    padding: 0;
+  }
+}
+
